@@ -1,0 +1,130 @@
+/* Body styles */
+body {
+  background: rgb(255, 255, 255);
+  background-image: url(cc41985f8488ae2a4480f4380dec111d.jpg);
+  /* Adjust the image size to cover the entire body */
+  /* Center the background image horizontally and vertically */
+  position: static; /* The default value for the position property is static; this line is optional */
+}
+
+
+/* Header styles */
+header {
+  background: rgb(0, 0, 0);
+  margin: 0px 0px 20px 0px;
+  padding: 10px 10px 10px 10px;
+  color: white;
+  font-family: fantasy;
+  text-align: center;
+  font-size: 2.2rem;
+  background-image: url(2daff19364c4244a8dc521be3b48ced5.jpg);
+  
+}
+
+/* h1 styles */
+h1 {
+  font-size: 0.9em;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 110px;
+  padding: 10px; /* Add some padding to create space around the text */
+
+  /* Background box */
+  background-color: rgb(233, 172, 132); /* Use rgba to set background color with transparency (alpha) */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Apply a subtle shadow to the background box */
+
+  /* Text shadow */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adjust values to control the text shadow's position and blur */
+
+  /* Additional styles for better readability */
+  display: inline-block; /* Ensure the background box wraps the text without taking the full width */
+}
+
+
+/* Footer styles */
+footer {
+  background: rgb(255, 255, 255);
+  color: black;
+  margin: 0px;
+  padding: 20px;
+  margin-right: 20%;
+}
+
+/* Styles for section with class "first" */
+.first {
+  background-image: url('your-background-image.jpg'); /* Replace with the URL of your background image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Adjust the height to fit the viewport or your desired height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 3.0rem;
+   margin: top;
+   padding-top: 8%;
+}
+
+
+/* Styles for elements with class "Donut" */
+.Donut {
+  background-color: #000000;
+  color: white;
+  padding: 2px;
+  margin: 10px;
+  border-radius: 3px;
+  margin-left: 20px;
+}
+
+/* Unordered list styles */
+ul {
+  margin: 0px;
+}
+
+/* Styles for list items */
+li {
+  display: inline-block;
+  font-size: 0.4em;
+  text-align: left;
+  color: white;
+  border-radius: 3px;
+  background: white;
+  margin: 8px; /* Add some spacing between list items */
+  padding: 6px 10px; /* Add padding to the list items */
+
+
+  
+
+
+
+
+}
+
+/* Hover styles for list items */
+li:hover {
+  background-color: blueviolet;
+}
+
+/* Styles for the first anchor tag within a list item */
+li:first-child a {
+  margin-left: 0px;
+  float: initial;
+}
+
+/* Anchor tag styles */
+a {
+  text-decoration: none;
+}
+
+/* Hover styles for anchor tags */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Additional styles for footer */
+footer {
+  margin: 0px;
+}
+
+
